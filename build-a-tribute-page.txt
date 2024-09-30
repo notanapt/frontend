@@ -1,0 +1,91 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute Page to Luffy</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Monkey D. Luffy</h1>
+        
+        <div id="img-div">
+            <img id="image" src="https://static.wikia.nocookie.net/onepiece/images/e/e4/Monkey_D._Luffy_Anime_Posters.png" alt="Monkey D. Luffy" style="max-width: 100%; height: auto;">
+            <div id="img-caption">Monkey D. Luffy, the aspiring Pirate King.</div>
+        </div>
+        
+        <div id="tribute-info">
+            Monkey D. Luffy is the main protagonist of *One Piece*, known for his unyielding spirit and determination to become the Pirate King. He sets out on a grand adventure to find the legendary treasure known as "One Piece" and gather a diverse crew known as the Straw Hat Pirates.
+        </div>
+        
+        <a id="tribute-link" href="https://www.pngmart.com/files/10/One-Piece-Luffy-PNG-File.png" target="_blank">Learn more about Monkey D. Luffy</a>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+#tribute-link {
+    margin-top: 20px; /* Added margin for spacing */
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center; /* Center text inside the link */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+
+#tribute-link:hover {
+    background-color: #0056b3;
+}
+
+** end of undefined **
+
